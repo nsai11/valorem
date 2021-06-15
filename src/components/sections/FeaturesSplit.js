@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'We are native to crypto',
+    paragraph: 'A team made up of crypto natives going as far back as 2016. \n We are Developers, Researchers, Marketing geeks and above all Investment wizards'
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  WHO
                   </div>
                 <h3 className="mt-0 mb-12">
                   Ad Valorem
                   </h3>
                 <p className="m-0">
-                Valorem venture aims to find value within the crypto landscape and allow this to flourish in this coming decade of our transition from archaic financial structures to newer ones. 
+                We aim to find value within the crypto landscape and leverage this to disrupt the transition from archaic financial structures to newer ones. 
                   </p>
               </div>
               <div className={
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  WHY
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Our Beliefs
+                  Our Obsession
                   </h3>
                 <p className="m-0">
-                We believe in the financial lego's that defi is building and look forward to invest in defi primitives that are not possible within the current financial system. Not just Defi, NFTs have offered a new way of rethinking certificates of authenticity when it comes to art and its potential in other spaces is yet untapped and has a long way to go.
+                We love the financial lego's of DeFi and invest in DeFi primitives and NFT products.
                   </p>
               </div>
               <div className={
@@ -119,13 +119,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  WHAT
                   </div>
                 <h3 className="mt-0 mb-12">
                 Simple. Elegant. Useful.
                   </h3>
                 <p className="m-0">
-                Three principles we believe in when it comes to valuing products. We align ourselves with long term thinking and are here to support teams that are passionate and believe in their products capabilities to become native within crypto.
+                Three principles we believe in when it comes to valuing products. We are Long on long term and are here to support promising teams through the bull and the bear.
                   </p>
               </div>
               <div className={

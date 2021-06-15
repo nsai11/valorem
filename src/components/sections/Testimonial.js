@@ -44,7 +44,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Our Investments',
+    title: 'Our Portfolio',
     paragraph: 'Powering some of the most disrupting startups'
   };
 
