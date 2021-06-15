@@ -1,0 +1,71 @@
+@include media( '>medium' ) {
+
+	.has-animations {
+
+		[class*=reveal-] {
+			opacity: 0;
+			will-change: opacity, transform;
+		}
+
+		.reveal-from-top {
+			transform: translateY($scroll-reveal--from-top-amount);
+		}
+
+		.reveal-from-top-2 {
+			transform: translateY($scroll-reveal--from-top-amount-2);
+		}
+
+		.reveal-from-bottom {
+			transform: translateY($scroll-reveal--from-bottom-amount);
+		}
+
+		.reveal-from-bottom-2 {
+			transform: translateY($scroll-reveal--from-bottom-amount-2);
+		}
+
+		.reveal-from-left {
+			transform: translateX($scroll-reveal--from-left-amount);
+		}
+
+		.reveal-from-left-2{
+			transform: translateX($scroll-reveal--from-left-amount-2);
+			transform: translateY($scroll-reveal--from-bottom-amount-2);
+		}
+
+		.reveal-from-right {
+			transform: translateX($scroll-reveal--from-right-amount);
+		}
+
+		.reveal-from-right-2 {
+			transform: translateX($scroll-reveal--from-right-amount-2);
+		}
+
+		.reveal-scale-up {
+			transform: scale($scroll-reveal--scale-up-amount);
+		}
+
+		.reveal-scale-down {
+			transform: scale($scroll-reveal--scale-down-amount);
+		}
+
+		.reveal-rotate-from-left {
+			transform: perspective(1000px) rotateY($scroll-reveal--rotate-from-left-amount);
+		}
+
+		.reveal-rotate-from-right {
+			transform: perspective(1000px) rotateY($scroll-reveal--rotate-from-right-amount);
+		}
+
+		&.is-loaded {
+
+			[class*=reveal-] {
+				transition: opacity $scroll-reveal--transition-duration $scroll-reveal--transition-timing, transform $scroll-reveal--transition-duration $scroll-reveal--transition-timing;
+
+				&.is-revealed {
+					opacity: 1;
+					transform: translate(0);
+				}
+			}
+		}
+	}
+}
