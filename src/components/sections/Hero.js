@@ -73,14 +73,14 @@ const Hero = ({
                 Completely changing the face of decentralization <br></br> one block at a time.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
+                {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="">
                     Research
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="">
                     Blog
                     </Button>
-                </ButtonGroup>
+                </ButtonGroup> */}
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'We are native to crypto',
-    paragraph: 'A team made up of crypto natives going as far back as 2016. \n We are Developers, Researchers, Marketing geeks and above all Investment wizards'
+    paragraph: 'A team made up of crypto natives going as far back as 2016. \n We are developers, researchers, marketing geeks and above all investment wizards'
   };
 
   return (
@@ -73,7 +73,7 @@ const FeaturesSplit = ({
                   Ad Valorem
                   </h3>
                 <p className="m-0">
-                We aim to find value within the crypto landscape and leverage this to disrupt the transition from archaic financial structures to newer ones. 
+                We aim to find value within the crypto landscape and leverage this to disrupt the transition from archaic financial structures to newer decentralized ones. 
                   </p>
               </div>
               <div className={
@@ -99,7 +99,7 @@ const FeaturesSplit = ({
                   Our Obsession
                   </h3>
                 <p className="m-0">
-                We love the financial lego's of DeFi and invest in DeFi primitives and NFT products.
+                We love the financial legos of DeFi and invest in DeFi primitives and NFT products.
                   </p>
               </div>
               <div className={
